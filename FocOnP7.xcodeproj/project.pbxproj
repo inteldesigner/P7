@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FDAC932043420C70518CD8C /* Pods_FocOnApp1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69557DB6A5B69079AB17ACE8 /* Pods_FocOnApp1.framework */; };
+		4CE79A3223CA782B0081D69D /* FocOn+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE79A3023CA782B0081D69D /* FocOn+CoreDataClass.swift */; };
+		4CE79A3323CA782B0081D69D /* FocOn+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE79A3123CA782B0081D69D /* FocOn+CoreDataProperties.swift */; };
+		4CE79A3523CA795E0081D69D /* TaskCustomStaticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE79A3423CA795E0081D69D /* TaskCustomStaticTableViewCell.swift */; };
+		4CE79A3723CA79ED0081D69D /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE79A3623CA79ED0081D69D /* HistoryViewController.swift */; };
+		4CE79A3923CA7D2B0081D69D /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE79A3823CA7D2B0081D69D /* HistoryTableViewCell.swift */; };
+		4CE79A4123CAC9680081D69D /* FocOnApp1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CE79A3F23CAC9680081D69D /* FocOnApp1.xcdatamodeld */; };
+		4CE79A4323CACA1C0081D69D /* TaskCustomStaticTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CE79A4223CACA1C0081D69D /* TaskCustomStaticTableViewCell.xib */; };
+		4CE79CFD23CE47B50081D69D /* ProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE79CFC23CE47B50081D69D /* ProgressVC.swift */; };
+		4CF9443823B7E8D900E2F02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9443723B7E8D900E2F02E /* AppDelegate.swift */; };
+		4CF9443A23B7E8D900E2F02E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9443923B7E8D900E2F02E /* SceneDelegate.swift */; };
+		4CF9443C23B7E8D900E2F02E /* TodayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9443B23B7E8D900E2F02E /* TodayVC.swift */; };
+		4CF9443F23B7E8D900E2F02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF9443D23B7E8D900E2F02E /* Main.storyboard */; };
+		4CF9444123B7E8D900E2F02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF9444023B7E8D900E2F02E /* Assets.xcassets */; };
+		4CF9444423B7E8D900E2F02E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF9444223B7E8D900E2F02E /* LaunchScreen.storyboard */; };
+		4CF9445723BD06EA00E2F02E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9445623BD06EA00E2F02E /* DataController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CE3B20F23D264C100127215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF9442C23B7E8D900E2F02E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF9443323B7E8D900E2F02E;
+			remoteInfo = FocOnApp1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CE3B1F423D2636900127215 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B414D54B3F3A4B4CA4104F4 /* Pods-FocOnApp1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocOnApp1.debug.xcconfig"; path = "Target Support Files/Pods-FocOnApp1/Pods-FocOnApp1.debug.xcconfig"; sourceTree = "<group>"; };
+		4CE3B20A23D264C100127215 /* FocOnApp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocOnApp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE79A3023CA782B0081D69D /* FocOn+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FocOn+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4CE79A3123CA782B0081D69D /* FocOn+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FocOn+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4CE79A3423CA795E0081D69D /* TaskCustomStaticTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCustomStaticTableViewCell.swift; sourceTree = "<group>"; };
+		4CE79A3623CA79ED0081D69D /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		4CE79A3823CA7D2B0081D69D /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		4CE79A4023CAC9680081D69D /* FocusOn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FocusOn.xcdatamodel; sourceTree = "<group>"; };
+		4CE79A4223CACA1C0081D69D /* TaskCustomStaticTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskCustomStaticTableViewCell.xib; sourceTree = "<group>"; };
+		4CE79CFC23CE47B50081D69D /* ProgressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressVC.swift; sourceTree = "<group>"; };
+		4CF9443423B7E8D900E2F02E /* FocOnApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocOnApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF9443723B7E8D900E2F02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CF9443923B7E8D900E2F02E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4CF9443B23B7E8D900E2F02E /* TodayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayVC.swift; sourceTree = "<group>"; };
+		4CF9443E23B7E8D900E2F02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CF9444023B7E8D900E2F02E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF9444323B7E8D900E2F02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CF9444523B7E8D900E2F02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF9445623BD06EA00E2F02E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		69557DB6A5B69079AB17ACE8 /* Pods_FocOnApp1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FocOnApp1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE748AB609165A8E8DE38F6F /* Pods-FocOnApp1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocOnApp1.release.xcconfig"; path = "Target Support Files/Pods-FocOnApp1/Pods-FocOnApp1.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CE3B20723D264C100127215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF9443123B7E8D900E2F02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDAC932043420C70518CD8C /* Pods_FocOnApp1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CE3B1F023D2636900127215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69557DB6A5B69079AB17ACE8 /* Pods_FocOnApp1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CE79A2F23CA782B0081D69D /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				4CE79A3023CA782B0081D69D /* FocOn+CoreDataClass.swift */,
+				4CE79A3123CA782B0081D69D /* FocOn+CoreDataProperties.swift */,
+				4CE79A3F23CAC9680081D69D /* FocOnApp1.xcdatamodeld */,
+			);
+			path = coreData;
+			sourceTree = "<group>";
+		};
+		4CE79CFA23CE3BD30081D69D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9443B23B7E8D900E2F02E /* TodayVC.swift */,
+				4CE79A3623CA79ED0081D69D /* HistoryViewController.swift */,
+				4CE79CFC23CE47B50081D69D /* ProgressVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CE79CFB23CE3BE50081D69D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9443D23B7E8D900E2F02E /* Main.storyboard */,
+				4CF9444023B7E8D900E2F02E /* Assets.xcassets */,
+				4CF9444223B7E8D900E2F02E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CF9442B23B7E8D900E2F02E = {
+			isa = PBXGroup;
+			children = (
+				4CE79A3823CA7D2B0081D69D /* HistoryTableViewCell.swift */,
+				4CE79A3423CA795E0081D69D /* TaskCustomStaticTableViewCell.swift */,
+				4CE79A4223CACA1C0081D69D /* TaskCustomStaticTableViewCell.xib */,
+				4CF9443623B7E8D900E2F02E /* FocOnApp1 */,
+				4CF9443523B7E8D900E2F02E /* Products */,
+				4CE79A2F23CA782B0081D69D /* coreData */,
+				4CE3B1F023D2636900127215 /* Frameworks */,
+				9854D9BE95022C69FE240780 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF9443523B7E8D900E2F02E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9443423B7E8D900E2F02E /* FocOnApp1.app */,
+				4CE3B20A23D264C100127215 /* FocOnApp1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF9443623B7E8D900E2F02E /* FocOnApp1 */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9444523B7E8D900E2F02E /* Info.plist */,
+				4CE79CFB23CE3BE50081D69D /* View */,
+				4CF9445C23BD108300E2F02E /* Model */,
+				4CE79CFA23CE3BD30081D69D /* Controller */,
+			);
+			path = FocOnApp1;
+			sourceTree = "<group>";
+		};
+		4CF9445C23BD108300E2F02E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9445623BD06EA00E2F02E /* DataController.swift */,
+				4CF9443723B7E8D900E2F02E /* AppDelegate.swift */,
+				4CF9443923B7E8D900E2F02E /* SceneDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9854D9BE95022C69FE240780 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B414D54B3F3A4B4CA4104F4 /* Pods-FocOnApp1.debug.xcconfig */,
+				AE748AB609165A8E8DE38F6F /* Pods-FocOnApp1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CE3B20923D264C100127215 /* FocOnApp1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE3B21123D264C100127215 /* Build configuration list for PBXNativeTarget "FocOnApp1Tests" */;
+			buildPhases = (
+				4CE3B20623D264C100127215 /* Sources */,
+				4CE3B20723D264C100127215 /* Frameworks */,
+				4CE3B20823D264C100127215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CE3B21023D264C100127215 /* PBXTargetDependency */,
+			);
+			name = FocOnApp1Tests;
+			productName = FocOnApp1Tests;
+			productReference = 4CE3B20A23D264C100127215 /* FocOnApp1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CF9443323B7E8D900E2F02E /* FocOnApp1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF9444823B7E8D900E2F02E /* Build configuration list for PBXNativeTarget "FocOnApp1" */;
+			buildPhases = (
+				302526D5C0223C3A1FA6B99D /* [CP] Check Pods Manifest.lock */,
+				4CF9443023B7E8D900E2F02E /* Sources */,
+				4CF9443123B7E8D900E2F02E /* Frameworks */,
+				4CF9443223B7E8D900E2F02E /* Resources */,
+				4CE3B1F423D2636900127215 /* Embed Frameworks */,
+				2841F27D823CB9D6C4AE7D01 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocOnApp1;
+			productName = FocOnApp1;
+			productReference = 4CF9443423B7E8D900E2F02E /* FocOnApp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF9442C23B7E8D900E2F02E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Eric Stein";
+				TargetAttributes = {
+					4CE3B20923D264C100127215 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 4CF9443323B7E8D900E2F02E;
+					};
+					4CF9443323B7E8D900E2F02E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4CF9442F23B7E8D900E2F02E /* Build configuration list for PBXProject "FocOnP7" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CF9442B23B7E8D900E2F02E;
+			productRefGroup = 4CF9443523B7E8D900E2F02E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF9443323B7E8D900E2F02E /* FocOnApp1 */,
+				4CE3B20923D264C100127215 /* FocOnApp1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CE3B20823D264C100127215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF9443223B7E8D900E2F02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF9444423B7E8D900E2F02E /* LaunchScreen.storyboard in Resources */,
+				4CE79A4323CACA1C0081D69D /* TaskCustomStaticTableViewCell.xib in Resources */,
+				4CF9444123B7E8D900E2F02E /* Assets.xcassets in Resources */,
+				4CF9443F23B7E8D900E2F02E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2841F27D823CB9D6C4AE7D01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FocOnApp1/Pods-FocOnApp1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FocOnApp1/Pods-FocOnApp1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FocOnApp1/Pods-FocOnApp1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		302526D5C0223C3A1FA6B99D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FocOnApp1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CE3B20623D264C100127215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF9443023B7E8D900E2F02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE79A3223CA782B0081D69D /* FocOn+CoreDataClass.swift in Sources */,
+				4CE79A4123CAC9680081D69D /* FocOnApp1.xcdatamodeld in Sources */,
+				4CF9445723BD06EA00E2F02E /* DataController.swift in Sources */,
+				4CE79CFD23CE47B50081D69D /* ProgressVC.swift in Sources */,
+				4CF9443C23B7E8D900E2F02E /* TodayVC.swift in Sources */,
+				4CE79A3723CA79ED0081D69D /* HistoryViewController.swift in Sources */,
+				4CE79A3323CA782B0081D69D /* FocOn+CoreDataProperties.swift in Sources */,
+				4CF9443823B7E8D900E2F02E /* AppDelegate.swift in Sources */,
+				4CE79A3923CA7D2B0081D69D /* HistoryTableViewCell.swift in Sources */,
+				4CE79A3523CA795E0081D69D /* TaskCustomStaticTableViewCell.swift in Sources */,
+				4CF9443A23B7E8D900E2F02E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CE3B21023D264C100127215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF9443323B7E8D900E2F02E /* FocOnApp1 */;
+			targetProxy = 4CE3B20F23D264C100127215 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CF9443D23B7E8D900E2F02E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF9443E23B7E8D900E2F02E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF9444223B7E8D900E2F02E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF9444323B7E8D900E2F02E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CE3B21223D264C100127215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35DZC633XF;
+				INFOPLIST_FILE = FocOnApp1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericstein.FocOnApp1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocOnApp1.app/FocOnApp1";
+			};
+			name = Debug;
+		};
+		4CE3B21323D264C100127215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35DZC633XF;
+				INFOPLIST_FILE = FocOnApp1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericstein.FocOnApp1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocOnApp1.app/FocOnApp1";
+			};
+			name = Release;
+		};
+		4CF9444623B7E8D900E2F02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CF9444723B7E8D900E2F02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF9444923B7E8D900E2F02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B414D54B3F3A4B4CA4104F4 /* Pods-FocOnApp1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35DZC633XF;
+				INFOPLIST_FILE = FocOnApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericstein.FocOnApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CF9444A23B7E8D900E2F02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE748AB609165A8E8DE38F6F /* Pods-FocOnApp1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35DZC633XF;
+				INFOPLIST_FILE = FocOnApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericstein.FocOnApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CE3B21123D264C100127215 /* Build configuration list for PBXNativeTarget "FocOnApp1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE3B21223D264C100127215 /* Debug */,
+				4CE3B21323D264C100127215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF9442F23B7E8D900E2F02E /* Build configuration list for PBXProject "FocOnP7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF9444623B7E8D900E2F02E /* Debug */,
+				4CF9444723B7E8D900E2F02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF9444823B7E8D900E2F02E /* Build configuration list for PBXNativeTarget "FocOnApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF9444923B7E8D900E2F02E /* Debug */,
+				4CF9444A23B7E8D900E2F02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CE79A3F23CAC9680081D69D /* FocOnApp1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CE79A4023CAC9680081D69D /* FocusOn.xcdatamodel */,
+			);
+			currentVersion = 4CE79A4023CAC9680081D69D /* FocusOn.xcdatamodel */;
+			path = FocOnApp1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CF9442C23B7E8D900E2F02E /* Project object */;
+}

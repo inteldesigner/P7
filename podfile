@@ -1,0 +1,11 @@
+platform :ios, '13.0'
+
+
+target 'FocOnApp1' do
+
+use_frameworks!
+
+pod 'SwiftCharts'
+pod 'Charts'
+
+end
